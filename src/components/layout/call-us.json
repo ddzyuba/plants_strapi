@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_calluses",
+  "info": {
+    "displayName": "callUs",
+    "icon": "phone-alt"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    }
+  }
+}

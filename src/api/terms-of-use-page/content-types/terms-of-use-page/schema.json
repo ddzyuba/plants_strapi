@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_of_use_pages",
+  "info": {
+    "singularName": "terms-of-use-page",
+    "pluralName": "terms-of-use-pages",
+    "displayName": "TermsOfUsePage"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Terms Of Use"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

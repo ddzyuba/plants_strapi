@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_layout_why_chooseuses",
+  "info": {
+    "displayName": "whyChooseUs",
+    "icon": "balance-scale-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "textList": {
+      "displayName": "textList",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.text-list"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

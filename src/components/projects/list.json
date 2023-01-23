@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_projects_lists",
+  "info": {
+    "displayName": "List",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "headingGreen": {
+      "type": "string"
+    },
+    "headingBlack": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

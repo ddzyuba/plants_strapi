@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_testimonials",
+  "info": {
+    "displayName": "testimonials",
+    "icon": "comment-dots"
+  },
+  "options": {},
+  "attributes": {
+    "titleBlack": {
+      "type": "string"
+    },
+    "titleGreen": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    }
+  }
+}

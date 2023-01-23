@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_layout_text_lists",
+  "info": {
+    "displayName": "textList",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

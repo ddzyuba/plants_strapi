@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_menus",
+  "info": {
+    "singularName": "header-menu",
+    "pluralName": "header-menus",
+    "displayName": "HeaderMenu"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderDynamicMenu": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.link"
+      ]
+    }
+  }
+}

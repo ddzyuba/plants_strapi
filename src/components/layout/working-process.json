@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_working_processes",
+  "info": {
+    "displayName": "workingProcess",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "titleBlack": {
+      "type": "string"
+    },
+    "titleGreen": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "process": {
+      "displayName": "process",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.process"
+    }
+  }
+}

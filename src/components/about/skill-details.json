@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_skill_details",
+  "info": {
+    "displayName": "skillDetails",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "skillName": {
+      "type": "string"
+    },
+    "skillPercentage": {
+      "type": "decimal"
+    }
+  }
+}

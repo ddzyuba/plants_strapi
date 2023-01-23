@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_processes",
+  "info": {
+    "displayName": "process",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "icon1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "icon2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

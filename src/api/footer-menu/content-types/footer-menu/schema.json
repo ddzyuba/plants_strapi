@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_menus",
+  "info": {
+    "singularName": "footer-menu",
+    "pluralName": "footer-menus",
+    "displayName": "FooterMenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FooterMenuDynamicZone": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.column-text",
+        "menu.column-links"
+      ]
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "copyrightLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

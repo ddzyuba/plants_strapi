@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_layout_hero_homes",
+  "info": {
+    "displayName": "heroHome",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "smallText": {
+      "type": "string"
+    },
+    "titleBlack": {
+      "type": "string"
+    },
+    "titleGreen": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "button": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

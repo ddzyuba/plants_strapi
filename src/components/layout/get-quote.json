@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_get_quotes",
+  "info": {
+    "displayName": "getQuote",
+    "icon": "envelope-open-text"
+  },
+  "options": {},
+  "attributes": {
+    "titleBlack": {
+      "type": "string"
+    },
+    "titleGreen": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    }
+  }
+}

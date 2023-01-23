@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_menu_column_links",
+  "info": {
+    "displayName": "ColumnLinks",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

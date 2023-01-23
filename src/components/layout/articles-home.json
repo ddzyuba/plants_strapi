@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_articles_homes",
+  "info": {
+    "displayName": "articlesHome",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "titleBlack": {
+      "type": "string"
+    },
+    "titleGreen": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    }
+  }
+}

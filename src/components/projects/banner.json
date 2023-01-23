@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_projects_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "headingBlack": {
+      "type": "string"
+    },
+    "headingGreen": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
